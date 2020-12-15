@@ -16,6 +16,10 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
         include: path.resolve(__dirname, "src", "styles"),
       },
+      {
+        test: /\.svg$/,
+        use: ["@svgr/webpack"],
+      },
     ],
   },
   resolve: {
