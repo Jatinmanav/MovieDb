@@ -1,11 +1,15 @@
 import React from "react";
-import Logo from "../assets/Logo";
+import Logo from "../iconComponents/Logo";
+import Person from "../iconComponents/Person";
+import Search from "../iconComponents/Search";
 
 const Header = () => {
   return (
     <div>
-      <Logo fillColor={"black"} height={40} width={125} />
+      <Logo height={30} width={100} />
       <h1>Header</h1>
+      <Search height={30} />
+      <Person height={30} width={30} />
     </div>
   );
 };
