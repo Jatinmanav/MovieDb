@@ -10,7 +10,7 @@ const Search = (props: React.SVGAttributes<SVGSVGElement>) => {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <circle cx="25" cy="25" r="24" stroke="black" stroke-width="2" />
+      <circle cx="25" cy="25" r="24" stroke="black" strokeWidth="2" />
       <rect
         x="40"
         y="43.5355"

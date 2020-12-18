@@ -19,7 +19,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js"],
+    extensions: [".ts", ".tsx", ".js", ".scss"],
   },
   output: { path: path.resolve(__dirname, "build") },
   plugins: [
