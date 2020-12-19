@@ -9,7 +9,7 @@ const Header = () => {
     <div className="header-container">
       <Logo className="logo" height={30} width={100} />
       <div className="header-profile">
-        <Search className="search-icon" height={30} />
+        <Search className="search-icon" height={30} width={30} />
         <Person className="person-icon" height={30} width={30} />
       </div>
     </div>
