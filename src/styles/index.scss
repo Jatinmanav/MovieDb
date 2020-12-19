@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -27,4 +29,8 @@ ul {
 ol,
 ul {
   list-style: none;
+}
+
+body {
+  background-color: var(--background-color);
 }

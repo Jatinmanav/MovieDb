@@ -4,7 +4,7 @@ import Home from "./views/Home";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <Header />
       <Home />
     </div>

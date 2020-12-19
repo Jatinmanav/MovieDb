@@ -1,0 +1,13 @@
+html[data-theme="light"] {
+  --logo-color: #4c4c4c;
+  --icon-color: #848484;
+  --header-color: #e8e6e2;
+  --background-color: #eeeeee;
+}
+
+html[data-theme="dark"] {
+  --logo-color: #e6be04;
+  --icon-color: #907c11;
+  --header-color: #30343a;
+  --background-color: #646c7c;
+}
