@@ -1,21 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 @import "./variables.scss";
 
 .header-container {
   background-color: var(--header-color);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1em;
-}
-
-.header-profile {
-  display: flex;
-  width: 25vw;
-  justify-content: space-between;
 }
 
 .logo {
   color: var(--logo-color);
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 1.5em;
   cursor: pointer;
+}
+
+.header-submenu-item {
+  display: inline-block;
+  font-family: Monteserrat, sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: var(--icon-color);
+  padding: 0 1em;
+}
+
+.header-profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-container {
+  border: 1px var(--icon-color) solid;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1em;
+}
+
+.search-field {
+  border: none;
+  background-color: var(--header-color);
+  &:focus {
+    outline: none;
+  }
+}
+
+.search-container {
+  display: flex;
+  margin: 0 2em;
 }
 
 .search-icon {
@@ -24,8 +58,10 @@
 }
 
 .person-icon {
+  margin: 0 2em;
   color: var(--icon-color);
   cursor: pointer;
+  align-self: center;
   .person-icon-background {
     color: var(--header-color);
   }
