@@ -3,6 +3,8 @@ html[data-theme="light"] {
   --icon-color: #848484;
   --header-color: #e8e6e2;
   --background-color: #eeeeee;
+  --header-font-color: #333333;
+  --header-outline-color: #8c8c8c;
 }
 
 html[data-theme="dark"] {
@@ -10,4 +12,6 @@ html[data-theme="dark"] {
   --icon-color: #00838f;
   --header-color: #30343a;
   --background-color: #3c4149;
+  --header-font-color: #e5e5e5;
+  --header-outline-color: #8c8c8c;
 }

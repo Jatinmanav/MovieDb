@@ -7,17 +7,12 @@ import "../styles/header";
 const Header = () => {
   return (
     <div className="header-container">
-      <Logo className="logo" height={40} width={150} />
-      <div>
-        <ul className="header-submenu">
-          <li className="header-submenu-item">Movies</li>
-          <li className="header-submenu-item">TV Shows</li>
-          <li className="header-submenu-item">In Theatres</li>
-        </ul>
+      <Logo className="logo" height={45} width={155} />
+      <div className="header-search-bar">
+        <SearchField />
       </div>
       <div className="header-profile">
-        <SearchField />
-        <Person className="person-icon" height={40} width={40} />
+        <Person className="person-icon" height={45} width={45} />
       </div>
     </div>
   );

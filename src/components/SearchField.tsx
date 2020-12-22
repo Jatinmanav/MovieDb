@@ -7,8 +7,10 @@ const SearchField = () => {
   return (
     <div>
       <form className="search-container">
-        <input className="search-field" />
-        <Search className="search-icon" height={30} width={30} />
+        <input className="search-field" placeholder="Search" />
+        <button className="search-button">
+          <Search className="search-icon" height={25} width={25} />
+        </button>
       </form>
     </div>
   );
